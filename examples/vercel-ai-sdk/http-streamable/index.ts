@@ -9,9 +9,9 @@ const mcpClient = await createMCPClient({
 
 const tools = await mcpClient.tools()
 
-const list_supported_cities = tools['get_current_weather']
+const get_current_weather = tools['get_current_weather']
 
-const result = await list_supported_cities.execute({
+const result = await get_current_weather.execute({
     "city": "Tokyo"
 },{
     toolCallId: "1",
