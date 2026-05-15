@@ -22,6 +22,7 @@
     "ts-mcp-starter": "src/index.ts"
   },
   "dependencies": {
+    "@ai-sdk/mcp": "^1.0.42",
     "@modelcontextprotocol/sdk": "^1.29.0",
     "zod": "^4.4.3"
   },
